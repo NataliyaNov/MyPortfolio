@@ -107,8 +107,8 @@ header a:visited {
 /*--- Close Button 3 ---*/
 
 .menu--close3 .menu__line--1 {
-  transition: transform .2s ease-in-out .15s,
-  top .2s ease-in-out .2s;
+  transition: transform .1s ease-in-out .07s,
+  top .1s ease-in-out .1s;
 }
 
 .menu--close3 .menu__line--1:before {
@@ -118,27 +118,27 @@ header a:visited {
   height: 3px;
   background-color: #800000;
   border-radius: 3px;
-  transition: transform .15s ease-in-out;
+  transition: transform .07s ease-in-out;
 }
 
 .menu--close3 .menu__line--2 {
-  transition: opacity .0s ease-in-out .35s;
+  transition: opacity .0s ease-in-out .17s;
 }
 
 .menu--close3 .menu__line--3 {
-  transition: opacity .0s ease-in-out .25s;
+  transition: opacity .0s ease-in-out .12s;
 }
 
 .menu--close3.open .menu__line--1 {
   top: 9px;
   transform: translate3d(0, 0px, 0) rotate(-45deg);
-  transition: top .2s ease-in-out,
-  transform .15s ease-in-out .2s;
+  transition: top .1s ease-in-out,
+  transform .07s ease-in-out .1s;
 }
 
 .menu--close3.open .menu__line--1:before {
   transform: rotate(-90deg);
-  transition: transform .15s ease-in-out .3s;
+  transition: transform .07s ease-in-out .15s;
 }
 
 .menu--close3.open .menu__line--2 {
